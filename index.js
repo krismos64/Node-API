@@ -1,5 +1,6 @@
 const express = require("express");
 const connectDB = require("./models/dbconfig");
+const postsRoutes = require("./routes/postsController");
 
 const app = express();
 
