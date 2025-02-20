@@ -21,4 +21,4 @@ const PostsModel = mongoose.model(
   "posts"
 );
 
-module.exports = PostsModel;
+module.exports = { PostsModel };
